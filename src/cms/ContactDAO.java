@@ -15,8 +15,8 @@ public class ContactDAO {
     // Database connection details - consider moving to a config file or class
     private static final String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=CMS;encrypt=true;trustServerCertificate=true;";
     private static final String DB_USER = "sa";
-    private static final String DB_PASSWORD = "protopkicker"; // Be cautious with hardcoding passwords
-
+    private static final String DB_PASSWORD = "protopkicker"; 
+// the code provided is responsible for connecting the database 
     // Load the JDBC driver
     static {
         try {
