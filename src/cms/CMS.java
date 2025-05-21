@@ -250,7 +250,7 @@ public class CMS extends javax.swing.JFrame {
         ((TableRowSorter<DefaultTableModel>)jTable_Display_CMS.getRowSorter()).setRowFilter(null); // Clear filter
     }//GEN-LAST:event_resetActionPerformed
 
- /*   private void saveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveActionPerformed
+    private void saveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveActionPerformed
         String nameStr = txtName.getText().trim();
         String phoneStr = phone.getText().trim();
         String addressStr = address.getText().trim();
@@ -260,7 +260,7 @@ public class CMS extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Name and Phone cannot be empty.", "Validation Error", JOptionPane.ERROR_MESSAGE);
             return;
         }
-*/
+
         Contact newContact = new Contact();
         newContact.setName(nameStr);
         newContact.setPhone(phoneStr); // Store phone as String
