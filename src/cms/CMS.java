@@ -352,12 +352,12 @@ public class CMS extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_findActionPerformed
 
-    private void DeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteActionPerformed
+  /* private void DeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteActionPerformed
         if (selectedContactSno <= 0) {
             JOptionPane.showMessageDialog(this, "Please select a contact from the table to delete.", "Selection Error", JOptionPane.WARNING_MESSAGE);
             return;
         }
-
+*/
         int confirmation = JOptionPane.showConfirmDialog(this,
                 "Are you sure you want to delete the selected contact?", "Confirm Deletion",
                 JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
